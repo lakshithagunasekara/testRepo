@@ -1,7 +1,7 @@
 environments:
   - name: dev
     endpoints:
-      production:
+      production: https://localhost:9090
       sandbox:
   - name: prod
     endpoints:
