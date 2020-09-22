@@ -4,7 +4,7 @@ id:
   version: "1"
   id: 0
 uuid: 77f216cf-a745-41eb-9c14-d6ae6380c26b
-description: '1st Global Events Hub that aggregates the best events worldwide. More than 70 ticketing sites, + Eventbrite, Meetup, Eventful, Facebook and Wordpress. Robby cross a wide scale of categories: Sporting events, Concert, Festivals, Art Expo, Museum, Theatre plays, Business, Meetings or Fooding happenings.'
+description: 'First Global Events Hub that aggregates the best events worldwide. More than 70 ticketing sites, + Eventbrite, Meetup, Eventful, Facebook and Wordpress. Robby cross a wide scale of categories: Sporting events, Concert, Festivals, Art Expo, Museum, Theatre plays, Business, Meetings or Fooding happenings.'
 type: HTTP
 context: /events-hub/1
 contextTemplate: /events-hub/{version}

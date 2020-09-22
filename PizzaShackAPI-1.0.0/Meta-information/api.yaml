@@ -4,7 +4,7 @@ id:
   version: 1.0.0
   id: 0
 uuid: e6822cc0-64da-4ab6-9a3e-74ab46e648d3
-description: This is a simple API for Pizza Shack online pizza delivery store. With different name
+description: This is a simple  API for Pizza Shack online pizza delivery store. With different name
 type: HTTP
 context: /pizzashack/1.0.0
 contextTemplate: /pizzashack/{version}

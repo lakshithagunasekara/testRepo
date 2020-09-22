@@ -4,7 +4,7 @@ id:
   version: "1"
   id: 0
 uuid: 3ff87b29-9b26-4a55-8ea9-076fe1e60115
-description: This is an API which users can query by keywords topics publications
+description: This is an   API which users can query by keywords topics publications
 type: HTTP
 context: /news/1
 contextTemplate: /news/{version}
