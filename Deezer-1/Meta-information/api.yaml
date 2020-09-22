@@ -1,18 +1,21 @@
 id:
   providerName: admin
-  apiName: News
+  apiName: Deezer
   version: "1"
-uuid: 89f40b3b-78ad-48d6-9f10-e66339909bd8
-description: This is an API which users can query by keywords topics publications
+  id: 0
+uuid: f73d380d-3fad-4501-b546-3f44c73e4199
+description: Deezer fdf is the No. 1 site for listening to music on demand. Discover more than 30 million tracks, create your own playlists, and share your favourite tracks. Deezer lets you play the music you just have to hear, instantly. Jump in and explore over 56 million tracks (and counting), and discover artists and tracks you'll love with personalised recommendations from the Deezer Editors. Deezer works across all your devices, both online and offline, with no listening limits. It's music at your fingertips for waking up, getting going, chilling out, living life.
 type: HTTP
-context: /news/1
-contextTemplate: /news/{version}
+context: /deezer/1
+contextTemplate: /deezer/{version}
 tags:
- - news
- - information
- - publications
+ - discover
+ - music
+ - playlists
+ - music on demand
+ - tracks
 documents: []
-lastUpdated: May 11, 2020 3:15:34 PM
+lastUpdated: Sep 22, 2020 6:32:31 PM
 availableTiers:
  -
   name: Unlimited
@@ -60,9 +63,11 @@ implementation: ENDPOINT
 scopes: []
 isDefaultVersion: false
 isPublishedDefaultVersion: false
+keyManagers:
+ - all
 environments:
  - Production and Sandbox
-createdTime: "1588842556518"
+createdTime: "1600779751083"
 additionalProperties: {}
 monetizationProperties: {}
 isMonetizationEnabled: false
@@ -73,7 +78,7 @@ apiSecurity: oauth2,oauth_basic_auth_api_key_mandatory
 endpoints: []
 enableSchemaValidation: false
 apiCategories: []
+enableStore: true
 accessControl: all
 rating: 0.0
 isLatest: true
-enableStore: true
