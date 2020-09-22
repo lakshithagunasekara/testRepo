@@ -3,7 +3,7 @@ id:
   apiName: Deezer
   version: "1"
 uuid: 75016ae7-8c11-4bf7-aa59-33645acd9477
-description: Deezer is the No. 1 site for listening to music on demand. Discover more than 30 million tracks, create your own playlists, and share your favourite tracks. Deezer lets you play the music you just have to hear, instantly. Jump in and explore over 56 million tracks (and counting), and discover artists and tracks you'll love with personalised recommendations from the Deezer Editors. Deezer works across all your devices, both online and offline, with no listening limits. It's music at your fingertips for waking up, getting going, chilling out, living life.
+description: Deezer is the No. 2 site for listening to music on demand. Discover more than 30 million tracks, create your own playlists, and share your favourite tracks. Deezer lets you play the music you just have to hear, instantly. Jump in and explore over 56 million tracks (and counting), and discover artists and tracks you'll love with personalised recommendations from the Deezer Editors. Deezer works across all your devices, both online and offline, with no listening limits. It's music at your fingertips for waking up, getting going, chilling out, living life.
 type: HTTP
 context: /deezer/1
 contextTemplate: /deezer/{version}
