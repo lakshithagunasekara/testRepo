@@ -4,7 +4,7 @@ id:
   version: "1"
   id: 0
 uuid: f73d380d-3fad-4501-b546-3f44c73e4199
-description: Deezer fdf is the No. 1 site for listening to music on demand. Discover more than 30 million tracks, create your own playlists, and share your favourite tracks. Deezer lets you play the music you just have to hear, instantly. Jump in and explore over 56 million tracks (and counting), and discover artists and tracks you'll love with personalised recommendations from the Deezer Editors. Deezer works across all your devices, both online and offline, with no listening limits. It's music at your fingertips for waking up, getting going, chilling out, living life.
+description: Deezer is the No. 1 site for listening to music on demand. Discover more than 30 million tracks, create your own playlists, and share your favourite tracks. Deezer lets you play the music you just have to hear, instantly. Jump in and explore over 56 million tracks (and counting), and discover artists and tracks you'll love with personalised recommendations from the Deezer Editors. Deezer works across all your devices, both online and offline, with no listening limits. It's music at your fingertips for waking up, getting going, chilling out, living life.
 type: HTTP
 context: /deezer/1
 contextTemplate: /deezer/{version}
