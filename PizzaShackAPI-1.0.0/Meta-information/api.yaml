@@ -1,0 +1,88 @@
+id:
+  providerName: admin
+  apiName: PizzaShackAPI
+  version: 1.0.0
+  id: 0
+uuid: e6822cc0-64da-4ab6-9a3e-74ab46e648d3
+description: This is a simple API for Pizza Shack online pizza delivery store. With different name
+type: HTTP
+context: /pizzashack/1.0.0
+contextTemplate: /pizzashack/{version}
+tags:
+ - pizza
+documents: []
+lastUpdated: Sep 22, 2020 9:53:31 AM
+availableTiers:
+ -
+  name: Unlimited
+  displayName: Unlimited
+  description: Allows unlimited requests
+  requestsPerMin: 2147483647
+  requestCount: 2147483647
+  unitTime: 0
+  timeUnit: ms
+  tierPlan: FREE
+  stopOnQuotaReached: true
+availableSubscriptionLevelPolicies: []
+uriTemplates: []
+apiHeaderChanged: false
+apiResourcePatternsChanged: false
+status: PUBLISHED
+technicalOwner: John Doe
+technicalOwnerEmail: architecture@pizzashack.com
+businessOwner: Jane Roe
+businessOwnerEmail: marketing@pizzashack.com
+visibility: public
+gatewayLabels: []
+endpointSecured: false
+endpointAuthDigest: false
+transports: http,https
+advertiseOnly: false
+subscriptionAvailability: current_tenant
+corsConfiguration:
+  corsConfigurationEnabled: false
+  accessControlAllowOrigins:
+   - '*'
+  accessControlAllowCredentials: false
+  accessControlAllowHeaders:
+   - authorization
+   - Access-Control-Allow-Origin
+   - Content-Type
+   - SOAPAction
+   - apikey
+   - testKey
+  accessControlAllowMethods:
+   - GET
+   - PUT
+   - POST
+   - DELETE
+   - PATCH
+   - OPTIONS
+endpointConfig: '{"endpoint_type":"http","sandbox_endpoints":{"template_not_supported":false,"url":"https:\/\/localhost:9443\/am\/sample\/pizzashack\/v1\/api\/"},"failOver":"False","production_endpoints":{"template_not_supported":false,"url":"https:\/\/localhost:9443\/am\/sample\/pizzashack\/v1\/api\/"}}'
+responseCache: Disabled
+cacheTimeout: 300
+implementation: ENDPOINT
+authorizationHeader: Authorization
+scopes: []
+isDefaultVersion: false
+isPublishedDefaultVersion: false
+keyManagers:
+ - all
+environments:
+ - Production and Sandbox
+createdTime: "1600680106430"
+additionalProperties: {}
+monetizationProperties: {}
+isMonetizationEnabled: false
+environmentList:
+ - SANDBOX
+ - PRODUCTION
+apiSecurity: oauth2,oauth_basic_auth_api_key_mandatory
+endpoints: []
+enableSchemaValidation: false
+apiCategories: []
+enableStore: true
+testKey: d141e469-1515-4748-b0d8-26deeda94b26
+accessControl: all
+rating: 0.0
+isLatest: true
