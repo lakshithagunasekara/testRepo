@@ -204,6 +204,35 @@ paths:
         security-types:
          - oauth2
         optional: false
+  /testResoruce:
+    get:
+      parameters: []
+      responses:
+        "200":
+          description: ok
+      security:
+       -
+        default: []
+      x-auth-type: Application & Application User
+      x-throttling-tier: Unlimited
+      x-wso2-application-security:
+        security-types:
+         - oauth2
+        optional: false
+    post:
+      parameters: []
+      responses:
+        "200":
+          description: ok
+      security:
+       -
+        default: []
+      x-auth-type: Application & Application User
+      x-throttling-tier: Unlimited
+      x-wso2-application-security:
+        security-types:
+         - oauth2
+        optional: false
 securityDefinitions:
   default:
     type: oauth2
