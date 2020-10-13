@@ -1,0 +1,56 @@
+openapi: 3.0.1
+info:
+  title: MoviesProduct
+  version: 1.0.0
+servers:
+ -
+  url: /
+security:
+ -
+  default: []
+paths:
+  /order/{orderId}:
+    delete:
+      parameters:
+       -
+        name: orderId
+        in: path
+        description: OrderId
+        required: true
+        schema:
+          type: string
+      responses:
+        "200":
+          description: OK. Resource successfully deleted.
+          content: {}
+        "404":
+          description: Not Found. Resource to be deleted does not exist.
+          content: {}
+        "412":
+          description: Precondition Failed. The request has not been performed because one of the preconditions is not met.
+          content: {}
+      security:
+       -
+        default: []
+      x-auth-type: Application & Application User
+      x-throttling-tier: Unlimited
+  /menu:
+    get:
+      responses:
+        "200":
+          description: ""
+          content: {}
+      security:
+       -
+        default: []
+      x-auth-type: Application & Application User
+      x-throttling-tier: Unlimited
+components:
+  securitySchemes:
+    default:
+      type: oauth2
+      flows:
+        implicit:
+          authorizationUrl: https://test.com
+          scopes: {}
+          x-scopes-bindings: {}
