@@ -1,0 +1,143 @@
+id:
+  providerName: admin
+  apiProductName: LocationProduct
+  version: 1.0.0
+  productId: 0
+uuid: d992ab91-b3f2-4329-bd9c-7ce23e1bbd37
+type: APIProduct
+productId: 53
+context: /locationprod
+availableTiers:
+ -
+  name: Bronze
+  displayName: Bronze
+  description: Allows 1000 requests per minute
+  requestsPerMin: 1000
+  requestCount: 1000
+  unitTime: 1
+  timeUnit: min
+  tierPlan: FREE
+  stopOnQuotaReached: true
+tags: []
+contextTemplate: /locationprod/{version}
+visibility: public
+subscriptionAvailability: all_tenants
+state: PUBLISHED
+tenantDomain: carbon.super
+rating: "0.0"
+productResources:
+ -
+  apiName: Map
+  apiId: 6fcbf942-7e25-4f28-8490-00b294a9a8d1
+  apiIdentifier:
+    providerName: admin
+    apiName: Map
+    version: "1"
+    id: 0
+  productIdentifier:
+    providerName: admin
+    apiProductName: LocationProduct
+    version: 1.0.0
+    productId: 0
+  uriTemplate:
+    uriTemplate: /menu
+    resourceURI: /menu
+    httpVerb: GET
+    authType: Application & Application User
+    httpVerbs: []
+    authTypes: []
+    throttlingConditions: []
+    throttlingTier: Unlimited
+    throttlingTiers: []
+    scopes: []
+    mediationScripts: {}
+    id: 137
+    usedByProducts: []
+    amznResourceTimeout: 0
+  endpointConfig: '{"endpoint_type":"http","sandbox_endpoints":{"config":null,"url":"https:\/\/localhost:9443\/am\/sample\/pizzashack\/v1\/api\/"},"production_endpoints":{"config":null,"url":"https:\/\/localhost:9443\/am\/sample\/pizzashack\/v1\/api\/"}}'
+  endpointSecurityMap:
+    production:
+      enabled: false
+      additionalProperties: {}
+    sandbox:
+      enabled: false
+      additionalProperties: {}
+  inSequenceName: ""
+  outSequenceName: ""
+  faultSequenceName: ""
+ -
+  apiName: Great-Circle-Mapper
+  apiId: 0c2bd314-c459-4647-9ad3-dd9696b97067
+  apiIdentifier:
+    providerName: admin
+    apiName: Great-Circle-Mapper
+    version: "1"
+    id: 0
+  productIdentifier:
+    providerName: admin
+    apiProductName: LocationProduct
+    version: 1.0.0
+    productId: 0
+  uriTemplate:
+    uriTemplate: /order/{orderId}
+    resourceURI: /order/{orderId}
+    httpVerb: DELETE
+    authType: Application & Application User
+    httpVerbs: []
+    authTypes: []
+    throttlingConditions: []
+    throttlingTier: Unlimited
+    throttlingTiers: []
+    scopes: []
+    mediationScripts: {}
+    id: 92
+    usedByProducts: []
+    amznResourceTimeout: 0
+  endpointConfig: '{"endpoint_type":"http","sandbox_endpoints":{"config":null,"url":"https:\/\/localhost:9443\/am\/sample\/pizzashack\/v1\/api\/"},"production_endpoints":{"config":null,"url":"https:\/\/localhost:9443\/am\/sample\/pizzashack\/v1\/api\/"}}'
+  endpointSecurityMap:
+    production:
+      enabled: false
+      additionalProperties: {}
+    sandbox:
+      enabled: false
+      additionalProperties: {}
+  inSequenceName: ""
+  outSequenceName: ""
+  faultSequenceName: ""
+additionalProperties: {}
+environments:
+ - Production and Sandbox
+gatewayLabels: []
+enableSchemaValidation: false
+scopes: []
+monetizationProperties: {}
+isMonetizationEnabled: false
+apiSecurity: oauth2,oauth_basic_auth_api_key_mandatory
+transports: http,https
+responseCache: Disabled
+cacheTimeout: 300
+authorizationHeader: Authorization
+corsConfiguration:
+  corsConfigurationEnabled: false
+  accessControlAllowOrigins:
+   - '*'
+  accessControlAllowCredentials: false
+  accessControlAllowHeaders:
+   - authorization
+   - Access-Control-Allow-Origin
+   - Content-Type
+   - SOAPAction
+   - apikey
+   - testKey
+  accessControlAllowMethods:
+   - GET
+   - PUT
+   - POST
+   - DELETE
+   - PATCH
+   - OPTIONS
+accessControl: all
+apiCategories: []
+lastUpdated: Oct 13, 2020 3:44:30 PM
+createdTime: Oct 13, 2020 3:44:30 PM
+enableStore: true
