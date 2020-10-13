@@ -11,7 +11,7 @@
   "keys": [],
   "keyManagerWiseOAuthApp": {},
   "tier": "10PerMin",
-  "description": "",
+  "description": "This will return some songs",
   "status": "APPROVED",
   "groupId": "",
   "owner": "admin",
