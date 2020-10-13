@@ -1,0 +1,21 @@
+{
+  "id": 7,
+  "name": "UpdatesApp",
+  "uuid": "746c0e1f-fe66-40d9-9b5c-bc06fba8ce83",
+  "subscriber": {
+    "name": "admin",
+    "id": 1,
+    "tenantId": 0
+  },
+  "subscribedAPIs": [],
+  "keys": [],
+  "keyManagerWiseOAuthApp": {},
+  "tier": "10PerMin",
+  "description": "",
+  "status": "APPROVED",
+  "groupId": "",
+  "owner": "admin",
+  "applicationAttributes": {},
+  "tokenType": "JWT",
+  "subscriptionCount": 0
+}

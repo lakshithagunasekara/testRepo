@@ -1,0 +1,21 @@
+{
+  "id": 4,
+  "name": "PizzaApp",
+  "uuid": "7ce9f938-7d22-4e00-9388-0b2faaae1443",
+  "subscriber": {
+    "name": "admin",
+    "id": 1,
+    "tenantId": 0
+  },
+  "subscribedAPIs": [],
+  "keys": [],
+  "keyManagerWiseOAuthApp": {},
+  "tier": "10PerMin",
+  "description": "",
+  "status": "APPROVED",
+  "groupId": "",
+  "owner": "admin",
+  "applicationAttributes": {},
+  "tokenType": "JWT",
+  "subscriptionCount": 0
+}

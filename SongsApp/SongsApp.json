@@ -1,0 +1,21 @@
+{
+  "id": 6,
+  "name": "SongsApp",
+  "uuid": "4a8d4b24-327f-46b8-9b31-c61e593a90a9",
+  "subscriber": {
+    "name": "admin",
+    "id": 1,
+    "tenantId": 0
+  },
+  "subscribedAPIs": [],
+  "keys": [],
+  "keyManagerWiseOAuthApp": {},
+  "tier": "10PerMin",
+  "description": "",
+  "status": "APPROVED",
+  "groupId": "",
+  "owner": "admin",
+  "applicationAttributes": {},
+  "tokenType": "JWT",
+  "subscriptionCount": 0
+}
